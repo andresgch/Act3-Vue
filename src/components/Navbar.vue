@@ -49,5 +49,7 @@ const onCarritoClick = () => {
 
 
 <style scoped>
-/*Coloqué los estilos de app.vue globales, eliminando la opción "scoped". Específicamente para el uso de los colores en TODOS los componentes*/
+.header-library{
+  padding: 0px 60px;
+}
 </style>

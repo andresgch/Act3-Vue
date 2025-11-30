@@ -18,4 +18,8 @@
     padding: 40px;
 }
 
+.card{
+    margin: 0px 120px;
+}
+
 </style>
