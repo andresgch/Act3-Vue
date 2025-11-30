@@ -1,9 +1,9 @@
 <template>
     <div class="container importados">
-                <div class="row">
+                <div class="row mx-0">
                     <div class="col-12 col-lg-12">
                         <div class="d-flex flex-row justify-content-between align-items-center mb-3 mb-lg-5">
-                            <h3 class="green-color"><strong>Libros importados</strong></h3>
+                            <h3 class="green-color"><strong>Librería</strong></h3>
                         </div>
                         <div class="row d-flex justify-content-center mt-0 mt-lg-5">
                             <div class="col-6 col-lg-3 mt-lg-0">

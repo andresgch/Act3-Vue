@@ -32,22 +32,36 @@ html, body {
   margin: 0;
   padding: 0;
   min-height: 100vh; 
+  overflow-x: hidden;
 }
 
 #app{
   display: block;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .main-layout {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden; 
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .container-fluid {
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+
+.container, .container-fluid {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    max-width: 100% !important;
 }
 
 .btn-chart:hover{
@@ -57,6 +71,10 @@ html, body {
 .header-library{
     background-color:#213635;
     border-bottom: 5px solid #1c5052;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Estilos de los enlaces del menú principal */
@@ -134,6 +152,16 @@ button.hamburger.open-panel.nav-toggle.active {
     ul.nav{
         overflow-x: hidden;
     }
+}
+
+html, body, #app, .main-layout {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 </style>

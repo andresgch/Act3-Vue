@@ -1,5 +1,5 @@
 <template>
-
+<div class="container-fluid px-0">
     <div class="row d-flex justify-content-between coworking">
         <div class="col-12 col-lg-12 mr-5" id="news">
             <h3 class="mt-4 mt-lg-5 mb-0 mb-lg-5 green-color"><strong>Espacios de Coworking</strong></h3>
@@ -211,7 +211,7 @@
             </div>
         </div>
     </div>
-         
+</div>         
 </template>
 
 
