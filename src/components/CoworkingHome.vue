@@ -222,7 +222,7 @@
 
 .card-img{
     box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
-    width: 60% !important;
+    width: 65% !important;
     margin-top: -20px;
 }
 
