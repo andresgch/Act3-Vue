@@ -142,9 +142,10 @@ button.hamburger.open-panel.nav-toggle.active {
 }
 
 #footer{
-	width: 100%; 
+  width: 100%; 
   background-color: #000;
   display: block;
+  padding: 0px 6rem;
 }
 
 /* Medium devices (tablets, 768px and up) */

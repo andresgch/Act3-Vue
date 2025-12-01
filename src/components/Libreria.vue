@@ -1,6 +1,6 @@
 <template>
-    <div class="container importados">
-                <div class="row mx-0">
+    <div class="container">
+                <div class="row mx-0 importados">
                     <div class="col-12 col-lg-12">
                         <div class="d-flex flex-row justify-content-between align-items-center mb-3 mb-lg-5">
                             <h3 class="green-color"><strong>Librería</strong></h3>
@@ -163,11 +163,12 @@
 <style scoped>
 
 h3{
-    font-size: 28px;
+    font-size: 23px;
+    margin: 0rem 0rem;
 }
 
 .importados{
-    padding: 40px;
+    padding: 3rem 6rem;
 }
         
 </style>

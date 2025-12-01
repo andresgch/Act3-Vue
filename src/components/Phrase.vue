@@ -15,11 +15,11 @@
 <style scoped>
 .phrase{
     background-color: #F2F3F7;
-    padding: 40px;
+    padding: 3rem 6rem;
 }
 
 .card{
-    margin: 0px 120px;
+    margin: 0rem 17rem;
 }
 
 </style>

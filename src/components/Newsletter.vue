@@ -34,7 +34,7 @@
     background: url('../assets/imgs/bg-doodle.png'),#213635;
     background-repeat: repeat;
     background-size: auto;
-    padding: 45px
+    padding: 3rem 6rem;
 }
 
 h3{

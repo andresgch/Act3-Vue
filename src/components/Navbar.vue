@@ -50,6 +50,6 @@ const onCarritoClick = () => {
 
 <style scoped>
 .header-library{
-  padding: 0px 60px;
+  padding: 0px 6rem;
 }
 </style>

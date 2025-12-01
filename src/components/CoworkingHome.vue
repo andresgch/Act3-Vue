@@ -6,14 +6,14 @@
             <div class="row d-flex justify-content-center mt-0 mt-lg-5">
                 
                 <div class="col-6 col-lg-3 mt-5 mt-lg-0">
-                    <a href="detail.html" target="_blank" class="text-decoration-none">
+                    <a href="#" target="_blank" class="text-decoration-none">
                         <div class="card h-100">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <img src="../assets/imgs/individual.webp" class="card-img img-fluid" alt="..." width="60%">
                                 <p class="badge text-bg-danger bagde-personal">Sin disponibilidad</p>
                             </div>
                             <div class="col-12 mt-1 mb-2">
-                                <div class="d-flex flex-row justify-content-between align-items-center px-3">
+                                <div class="d-flex flex-row justify-content-between align-items-center px-3 calificacion">
                                     <div class="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffce00"
                                             class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -60,7 +60,7 @@
                                     <small class="card-text opacity-75">1 persona</small>
                                 </div>
 
-                                <div class="d-flex justify-content-between">
+                                <div class="d-flex justify-content-between precio">
                                     <p class="card-text green-color"><strong>$1,00</strong></p>
                                     <p class="card-text text-secondary opacity-50 text-decoration-line-through">
                                         $3,30</p>
@@ -74,14 +74,14 @@
                 </div>
 
                 <div class="col-6 col-lg-3 mt-5 mt-lg-0">
-                    <a href="detail.html" target="_blank" class="text-decoration-none">
+                    <a href="#" target="_blank" class="text-decoration-none">
                         <div class="card h-100">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <img src="../assets/imgs/grupal.webp" class="card-img img-fluid" alt="..." width="60%">
                                 <p class="badge text-bg-success bagde-personal">Disponible</p>
                             </div>
                             <div class="col-12 mt-1 mb-2">
-                                <div class="d-flex flex-row justify-content-between align-items-center px-3">
+                                <div class="d-flex flex-row justify-content-between align-items-center px-3 calificacion">
                                     <div class="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffce00"
                                             class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -128,7 +128,7 @@
                                     <small class="card-text opacity-75">2 a 4 personas</small>
                                 </div>
 
-                                <div class="d-flex justify-content-between">
+                                <div class="d-flex justify-content-between precio">
                                     <p class="card-text green-color"><strong>$5,00</strong></p>
                                     <p class="card-text text-secondary opacity-50 text-decoration-line-through">
                                         $8,30</p>
@@ -142,14 +142,14 @@
                 </div>
 
                 <div class="col-6 col-lg-3 mt-5 mt-lg-0">
-                    <a href="detail.html" target="_blank" class="text-decoration-none">
+                    <a href="#" target="_blank" class="text-decoration-none">
                         <div class="card h-100">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <img src="../assets/imgs/junta.webp" class="card-img img-fluid" alt="..." width="60%">
                                 <p class="badge text-bg-success bagde-personal">Disponible</p>
                             </div>
                             <div class="col-12 mt-1 mb-2">
-                                <div class="d-flex flex-row justify-content-between align-items-center px-3">
+                                <div class="d-flex flex-row justify-content-between align-items-center px-3 calificacion">
                                     <div class="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffce00"
                                             class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -195,7 +195,7 @@
                                     <small class="card-text opacity-75">De 5 hasta 20 personas</small>
                                 </div>
 
-                                <div class="d-flex justify-content-between">
+                                <div class="d-flex justify-content-between precio">
                                     <p class="card-text green-color"><strong>$10,50</strong></p>
                                     <p class="card-text text-secondary opacity-50 text-decoration-line-through">
                                         $15,10</p>
@@ -209,14 +209,14 @@
                 </div>
 
                 <div class="col-6 col-lg-3 mt-5 mt-lg-0">
-                    <a href="detail.html" target="_blank" class="text-decoration-none">
+                    <a href="#" target="_blank" class="text-decoration-none">
                         <div class="card h-100">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <img src="../assets/imgs/auditorio.webp" class="card-img img-fluid" alt="..." width="60%">
                                 <p class="badge text-bg-success bagde-personal">Disponible</p>
                             </div>
                             <div class="col-12 mt-1 mb-2">
-                                <div class="d-flex flex-row justify-content-between align-items-center px-3">
+                                <div class="d-flex flex-row justify-content-between align-items-center px-3 calificacion">
                                     <div class="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffce00"
                                             class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -257,12 +257,11 @@
                                 <div class="text-center">
                                     <h6 class="card-title"><strong>Auditorio</strong></h6>
                                 </div>
-
                                 <div class="d-flex justify-content-center mb-2">
                                     <small class="card-text opacity-75">Más de 100 personas</small>
                                 </div>
 
-                                <div class="d-flex justify-content-between">
+                                <div class="d-flex justify-content-between precio">
                                     <p class="card-text green-color"><strong>$40,50</strong></p>
                                     <p class="card-text text-secondary opacity-50 text-decoration-line-through">
                                         $60,30</p>
@@ -284,8 +283,8 @@
 
 <style scoped>
 .coworking{
-    padding: 0px 60px;
-    margin: 0px 0px 80px 0px;
+    padding: 0rem 6rem;
+    margin: 0rem 0rem 5rem 0rem;
 }
 
 .card-img{
@@ -294,11 +293,21 @@
     margin-top: -20px;
 }
 
+.calificacion{
+padding: 1rem 0rem 0rem;
+margin: 0rem 1rem;
+}
+
+.precio{
+padding: 1rem 0rem 0rem;
+margin: 0rem 1rem;
+}
+
 .badge{
-    margin-top: -10px;
+    margin-top: -2rem;
 }
 
 h3{
-    font-size: 28px;
+    font-size: 25px;
 }
 </style>
