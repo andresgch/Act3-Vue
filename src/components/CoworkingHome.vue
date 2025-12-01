@@ -285,7 +285,7 @@
 <style scoped>
 .coworking{
     padding: 0px 60px;
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 80px 0px;
 }
 
 .card-img{
