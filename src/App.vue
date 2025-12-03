@@ -7,14 +7,12 @@
 
 
 <template>
-  <div class="main-layout">
-    <Navbar />
+  <Navbar />
     <Menu />
     <main class="content-area"> 
       <router-view />
     </main>
     <Footer />
-  </div>
 </template>
 
 
@@ -27,7 +25,7 @@ body, html, #app {
 }
 
 html, body {
-  width: 100%;
+  width: 100% !important;
   margin: 0;
   padding: 0;
   min-height: 100vh; 
@@ -44,7 +42,6 @@ html, body {
 .main-layout {
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden; 
 }
 
 .row {
