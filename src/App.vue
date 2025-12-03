@@ -1,18 +1,17 @@
 <script setup>
-import Navbar from './components/Navbar.vue';
-import Menu from './components/Menu.vue';
-import Footer from './components/Footer.vue';
-import Home from './components/Home.vue';
+    import Navbar from './components/Navbar.vue';
+    import Menu from './components/Menu.vue';
+    import Footer from './components/Footer.vue';
 </script>
 
 
 
 <template>
   <div class="main-layout">
-    <Navbar/>
-    <Menu/>
+    <Navbar />
+    <Menu />
     <main class="content-area"> 
-        <Home />
+      <router-view />
     </main>
     <Footer />
   </div>
