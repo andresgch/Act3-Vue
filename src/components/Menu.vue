@@ -16,6 +16,9 @@
             <li class="nav-item">
               <a class="nav-link green-color">Contáctanos</a>
             </li>
+            <li class="nav-item">
+              <router-link to="/checkin" class="nav-link green-color">Checkout</router-link>
+            </li>
           </ul>
         </div>
       </div>

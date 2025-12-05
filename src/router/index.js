@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 // Importa las vistas
 import HomeView from '@/views/HomeView.vue'
 import CoworkingView from '@/views/CoworkingView.vue'
+import CheckinView from '@/views/CheckinView.vue'
 
 const routes = [
   {
@@ -14,7 +15,16 @@ const routes = [
     path: '/coworking',
     name: 'coworking',
     component: CoworkingView
+  },
+  {
+    path: '/checkin',
+    name: 'checkin',
+    component: CheckinView
   }
+
+ 
+
+
 ]
 
 const router = createRouter({

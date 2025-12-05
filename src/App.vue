@@ -22,6 +22,8 @@
 
 body, html, #app {
     font-family: 'Inter', sans-serif; 
+    height: 100%;
+    margin: 0;
 }
 
 html, body {
@@ -33,7 +35,8 @@ html, body {
 }
 
 #app{
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -43,6 +46,7 @@ html, body {
   width: 100%;
   min-height: 100vh;
 }
+
 
 .row {
     margin-left: 0 !important;

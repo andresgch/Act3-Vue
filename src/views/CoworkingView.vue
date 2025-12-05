@@ -58,8 +58,8 @@
             :key="space.id"
             class="col-6 col-lg-3 mt-4 mt-lg-0"
           >
-            <a :href="space.link" target="_blank" class="text-decoration-none">
-              <div class="card h-100">
+            <!-- <a :href="space.link" target="_blank" class="text-decoration-none">-->
+              <div class="card h-100 text-decoration-none">
                 <div class="d-flex flex-column justify-content-center align-items-center">
                   <img 
                     :src="space.imageUrl" 
@@ -125,12 +125,13 @@
                     class="btn btn-green px-0 px-lg-2"
                     :disabled="!space.available"
                     :class="{ 'opacity-50': !space.available }"
+                    @click="reservar(space)"
                   >
                     <small>{{ space.available ? 'Reservar espacio' : 'No disponible' }}</small>
                   </button>
                 </div>
               </div>
-            </a>
+            <!--</a>-->
           </div>
           
           <!-- Mensaje si no hay resultados -->
@@ -265,7 +266,31 @@ export default {
       } else {
         return 'M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z'
       }
+    },
+
+    reservar(space) {
+      let reservas = JSON.parse(localStorage.getItem("reservas")) || [];
+
+      reservas.push({
+        id: space.id,
+        title: space.title,
+        capacity: space.capacity,
+        price: space.price,
+        originalPrice: space.originalPrice,
+        imageUrl: space.imageUrl,
+        rating: space.rating,
+        reviews: space.reviews,
+        fecha: null
+      });
+
+      localStorage.setItem("reservas", JSON.stringify(reservas));
+
+      alert("Ve al Check-Out para reservar");
     }
+
+
+
+
   }
 }
 </script>
